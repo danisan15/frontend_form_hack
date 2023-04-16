@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <section id="main-container">
+        <div id="form-container">
+            <div id="header-container">
+                <h1 id="header"><span>•</span>SOLICITAR REUNION <span>•</span></h1>
+                <hr id="header-hr" />
+            </div>
+            <form action="">
+                <div id="inputs-container1">
+                    <input type="text" name="name" placeholder="NOMBRE">
+                    <input type="text" name="email" placeholder="CORREO">
+                </div>
+                <div id="inputs-container2">
+                    <br>
+                    <input type="text" name="issue" placeholder="ASUNTO">
+                    <br>
+                    <select name="status" id="status">
+                        <option value="" disabled selected hidden>ESTATUS</option>
+                        <option value="">Disponible</option>
+                        <option value="">No disponible</option>
+                    </select>
+                    <br>
+                    <textarea name="" id="content" cols="30" rows="10" placeholder="CONTENIDO..."></textarea>
+                    <br>
+                </div>
+                <button type="submit">ENVIAR MENSAJE
+                    <hr id="button-hr" />
+                </button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

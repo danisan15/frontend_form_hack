@@ -1,0 +1,124 @@
+
+@font-face{
+    font-family: Montserrat;
+    src: url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+}
+
+body {
+    background: #F2F3EB;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+input, select, textarea{
+    border: none;
+    border-bottom: 2px solid #474544;
+    background-color: #F2F3EB;
+    padding-bottom: 10px;
+    outline: none;
+    color: #757575;
+    letter-spacing: 1px;
+    resize: none;
+}
+
+textarea{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat 100%;
+}
+
+button{
+    border: 2px solid #474544;
+    background-color: #F2F3EB;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    transition: 200ms;
+    color: #474544;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 200ms;
+    padding: 25px;
+}
+
+button:hover > #button-hr{
+    margin: 1px;
+    transition: 300ms;
+    width: 100%;
+    border-color: black;
+
+}
+
+
+h1 {
+  color: #474544;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  letter-spacing: 8px;
+}
+
+h1:hover + #header-hr{
+    width: 60%;
+    transition: 300ms;
+    color:#474544;
+}
+
+input{
+    border-bottom: solid 2px #474544;
+    color: #474544;
+}
+
+#header-hr{
+    width: 12%;
+    border: 1px solid;
+    transition: 300ms;
+}
+
+#main-container{
+    border: solid #474544;
+    margin: 0 5%;
+    overflow: hidden;
+}
+
+#form-container{
+    padding: 0px 50px 50px 50px;
+}
+
+#header-container{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    margin-bottom: 40px;
+
+}
+
+#inputs-container1 > *{
+    margin-right: 70px;
+    width: 250px;
+}
+
+#inputs-container2{
+    display: grid;
+}
+
+#button-hr{
+    padding: 0;
+    margin: 0;
+    width: 0;
+    border-color: #F2F3EB;
+    transition: 300ms;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+}
+
+
